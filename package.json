@@ -1,0 +1,28 @@
+{
+  "name": "perpetual",
+  "version": "0.0.1",
+  "description": "A bad/boring/easy way to get days of the week",
+  "main": "perpetual.js",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "~1.18.2",
+    "assertive": "^1.4.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/banterability/perpetual.git"
+  },
+  "keywords": [
+    "date",
+    "day of the week"
+  ],
+  "author": "Jeff Long",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/banterability/perpetual/issues"
+  },
+  "homepage": "https://github.com/banterability/perpetual"
+}
