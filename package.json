@@ -1,7 +1,7 @@
 {
   "name": "perpetual",
   "version": "0.0.1",
-  "description": "A bad/boring/easy way to get days of the week",
+  "description": "A bad/boring/easy way to get names of days & months",
   "main": "perpetual.js",
   "dependencies": {},
   "devDependencies": {
