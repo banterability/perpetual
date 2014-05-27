@@ -2,9 +2,15 @@ assert = require('assertive');
 perpetual = require('../perpetual');
 
 describe("Perpetual", function(){
-  it('returns the correct name for Monday', function(){
-    var d = new Date(2014, 4, 19);
-    assert.equal('Monday', d.getDayName());
+  describe('Date prototype', function(){
+    it('attaches #getDayName to Date prototype', function(){
+      var d = new Date();
+      assert.expect(d.getDayName);
+    });
+    it('attaches #getMonthName to Date prototype', function(){
+      var d = new Date();
+      assert.expect(d.getMonthName);
+    });
   });
   describe('days of the week', function(){
     it('returns the correct name for Monday', function(){
